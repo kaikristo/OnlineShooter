@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8565799730926549212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8565799730926549214}
+  - component: {fileID: 8565799730926549213}
+  m_Layer: 0
+  m_Name: MachineGunScript
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8565799730926549214
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8565799730926549212}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.844065, y: 6.067642, z: -0.49765134}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8565799730926549213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8565799730926549212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1c024679d700d44791c516b63ad650d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 2
+  GunSkin: {fileID: 7294490963076985042, guid: e7a7ba2970045ef449a670e072bec480, type: 3}
+  bulletsPerShoot: 3
+  fireRate: 900
+  recoil: 30
+  bulletPrefab: {fileID: 8044197602327682084, guid: 2e813dac3d263e940adedb1bca112e1f,
+    type: 3}
+  gunShotSounds:
+  - {fileID: 8300000, guid: b0c0a2104a2947a4586fb27ee9dde62e, type: 3}
+  gunFlashVFX: {fileID: 195376, guid: 346f3bf3686d682498113714ee132099, type: 3}
